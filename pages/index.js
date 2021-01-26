@@ -5,6 +5,7 @@ import Widget from '../src/components/Widget'
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 import QuizBackground from '../src/components/QuizBackground'
+import QuizLogo from '../src/components/QuizLogo'
 
 const BackgroundImage = styled.div`
   background-image: url(${db.bg});
@@ -28,13 +29,14 @@ export const QuizContainer = styled.div`
 export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <QuizLogo />
       <QuizContainer>
         <Widget>
           <Widget.Header>
-              <h1>A hora do café</h1>
+              <h1>Inazuma Eleven</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Testes de conhecimento da nossa bebida favorita</p>
+            <p>Vamos nos divertir testando nosso conhecimento sobre o melhor time de futebol de todos os tempos.</p>
           </Widget.Content>
 
 
@@ -44,7 +46,10 @@ export default function Home() {
          <Widget.Content>
 
             <h1>Quizes Relacionados</h1>
-            <p>- A hora do chá</p>
+            <p>https://onepiece-quiz-imersao-react-next-js.marioandre01.vercel.app</p>
+            <p>https://aluraquiz-base-git-master.gtretow.vercel.app</p>
+            <p>https://naruto-quiz.llofyy.vercel.app/</p>
+            
 
           </Widget.Content>
         </Widget>
