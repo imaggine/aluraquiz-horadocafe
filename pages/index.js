@@ -47,7 +47,7 @@ export default function Home() {
 
             <h1>Quizes da Galera</h1>
             <p><a href="https://onepiece-quiz-imersao-react-next-js.marioandre01.vercel.app">One Piece Quiz</a></p>
-            <p><a href="https://naruto-quiz.llofyy.vercel.app"></a>Naruto</p>
+            <p><a href="https://naruto-quiz.llofyy.vercel.app"></a>Naruto Quiz</p>
 
 
           </Widget.Content>
