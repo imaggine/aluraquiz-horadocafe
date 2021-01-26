@@ -45,11 +45,10 @@ export default function Home() {
         <Widget>
          <Widget.Content>
 
-            <h1>Quizes Relacionados</h1>
-            <p>https://onepiece-quiz-imersao-react-next-js.marioandre01.vercel.app</p>
-            <p>https://aluraquiz-base-git-master.gtretow.vercel.app</p>
-            <p>https://naruto-quiz.llofyy.vercel.app/</p>
-            
+            <h1>Quizes da Galera</h1>
+            <p><a href="https://onepiece-quiz-imersao-react-next-js.marioandre01.vercel.app">One Piece Quiz</a></p>
+            <p><a href="https://naruto-quiz.llofyy.vercel.app"></a>Naruto</p>
+
 
           </Widget.Content>
         </Widget>
